@@ -41,8 +41,10 @@ print(day_before_yesterday_closing_price)
 # Find the positive difference between 1 and 2. e.g. 40 - 20 = -20, but the positive difference is 20.
 # Hint: https://www.w3schools.com/python/ref_func_abs.asp
 
-difference = abs(float(yesterday_closing_price) - float(day_before_yesterday_closing_price))
-print(difference)
+difference = float(yesterday_closing_price) - float(day_before_yesterday_closing_price)
+up_down = None
+if difference > 0:
+    up_down = "🔺"
 
 # Work out the percentage difference in price between closing price yesterday
 # and closing price the day before yesterday.
