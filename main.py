@@ -12,7 +12,8 @@ NEWS_API_KEY = "b7f230a1fd1a40f2b7974776cfe7f30b"
 TWILIO_SID = "AC88a8c9dc2194c9afa111d4f97f50afae"
 TWILIO_AUTH_TOKEN = "f8ba1b674ffbbb0bef02890b9b2c11d4"
 
-    # STEP 1: Use https://www.alphavantage.co/documentation/#daily
+
+# STEP 1: Use https://www.alphavantage.co/documentation/#daily
 # When stock price increase/decreases by 5% between yesterday and the day before yesterday then print("Get News").
 
 # 1.Get yesterday's closing stock price. Hint: You can perform list comprehensions on Python dictionaries.
