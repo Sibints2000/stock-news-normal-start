@@ -76,11 +76,12 @@ print(three_articles)
 
 #TODO 8. - Create a new list of the first 3 article's headline and description using list comprehension.
 
+
 #TODO 9. - Send each article as a separate message via Twilio. 
 
 
 
-#Optional TODO: Format the message like this: 
+# Optional TODO: Format the message like this:
 """
 TSLA: 🔺2%
 Headline: Were Hedge Funds Right About Piling Into Tesla Inc. (TSLA)?. 
