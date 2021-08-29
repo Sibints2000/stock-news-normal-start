@@ -13,7 +13,8 @@ STOCK_API_KEY = "GC85PQMYCTDMCUQ3"
 
 #TODO 1. - Get yesterday's closing stock price. Hint: You can perform list comprehensions on Python dictionaries. e.g. [new_value for (key, value) in dictionary.items()]
 stock_params = {
-
+    "function": "TIME_SERIES_DAILY",
+    "symbol": STOCK_NAME
 }
 
 requests.get(STOCK_ENDPOINT, )
