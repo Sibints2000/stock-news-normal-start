@@ -84,7 +84,7 @@ formatted_articles = [f"Headlines: {article['title']}. \nBrief: {article ['descr
 
 #TODO 9. - Send each article as a separate message via Twilio. 
 
-
+client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
 
 # Optional TODO: Format the message like this:
 """
