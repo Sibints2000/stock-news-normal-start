@@ -55,7 +55,10 @@ print(diff_percent)
 #TODO 6. - Instead of printing ("Get News"), use the News API to get articles related to the COMPANY_NAME.
 
 if diff_percent > 1:
-
+    news_params = {
+        "apiKey": NEWS_API_KEY,
+        "qInTitle":
+    }
     requests.get(NEWS_ENDPOINT, params=)
 
 
