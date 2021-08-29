@@ -90,7 +90,8 @@ client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
 
 for article in formatted_articles:
     message = client.messages.create(
-        body=
+        body=article,
+        from_=
     )
 
 # Optional TODO: Format the message like this:
