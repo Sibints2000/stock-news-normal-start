@@ -57,7 +57,7 @@ print(diff_percent)
 if diff_percent > 1:
     news_params = {
         "apiKey": NEWS_API_KEY,
-        "qInTitle":
+        "qInTitle": COMPANY_NAME,
     }
     requests.get(NEWS_ENDPOINT, params=)
 
