@@ -82,9 +82,16 @@ print(three_articles)
 formatted_articles = [f"Headlines: {article['title']}. \nBrief: {article ['description']}" for article in
                       three_articles]
 
-#TODO 9. - Send each article as a separate message via Twilio. 
+# Send each article as a separate message via Twilio.
 
 client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
+
+# Send each article as a separate message via Twilio
+
+for article in formatted_articles:
+    message = client.messages.create(
+        body=
+    )
 
 # Optional TODO: Format the message like this:
 """
