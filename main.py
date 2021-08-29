@@ -12,7 +12,11 @@ STOCK_API_KEY = "GC85PQMYCTDMCUQ3"
 # When stock price increase/decreases by 5% between yesterday and the day before yesterday then print("Get News").
 
 #TODO 1. - Get yesterday's closing stock price. Hint: You can perform list comprehensions on Python dictionaries. e.g. [new_value for (key, value) in dictionary.items()]
-requests.get(STOCK_ENDPOINT)
+stock_params = {
+
+}
+
+requests.get(STOCK_ENDPOINT, )
 
 #TODO 2. - Get the day before yesterday's closing stock price
 
