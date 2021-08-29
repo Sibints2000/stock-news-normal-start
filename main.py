@@ -51,7 +51,7 @@ else:
 # Work out the percentage difference in price between closing price yesterday
 # and closing price the day before yesterday.
 
-diff_percent = (difference / float(yesterday_closing_price)) * 100
+diff_percent = round(difference / float(yesterday_closing_price)) * 100
 print(diff_percent)
 
 # If TODO4 percentage is greater than 5 then print("Get News").
@@ -62,7 +62,7 @@ print(diff_percent)
 
 # Instead of printing ("Get News"), use the News API to get articles related to the COMPANY_NAME.
 
-if diff_percent > 1:
+if abs(diff_percent) > 1:
     news_params = {
         "apiKey": NEWS_API_KEY,
         "qInTitle": COMPANY_NAME,
