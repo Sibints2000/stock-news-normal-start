@@ -60,6 +60,7 @@ if diff_percent > 1:
         "qInTitle": COMPANY_NAME,
     }
     news_response = requests.get(NEWS_ENDPOINT, params=news_params)
+    print(news_response.json())
 
 
 #TODO 7. - Use Python slice operator to create a list that contains the first 3 articles. Hint: https://stackoverflow.com/questions/509211/understanding-slice-notation
