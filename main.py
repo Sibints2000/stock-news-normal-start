@@ -19,7 +19,8 @@ stock_params = {
 }
 
 response = requests.get(STOCK_ENDPOINT, params=stock_params)
-print(response.json())
+data = response.json()["Time Series (Daily)"]
+print(data)
 
 #TODO 2. - Get the day before yesterday's closing stock price
 
