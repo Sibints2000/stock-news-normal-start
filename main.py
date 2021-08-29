@@ -76,7 +76,7 @@ print(three_articles)
 #TODO 8. - Create a new list of the first 3 article's headline and description using list comprehension.
 
 
-[f"Headlines: {article title}. \nBrief: {article description}" for article in three_articles]
+[f"Headlines: {article['title']}. \nBrief: {article ['description']}" for article in three_articles]
 
 #TODO 9. - Send each article as a separate message via Twilio. 
 
