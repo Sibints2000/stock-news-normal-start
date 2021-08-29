@@ -47,7 +47,7 @@ print(diff_percent)
 
 # If TODO4 percentage is greater than 5 then print("Get News").
 
-if diff_percent > 1:
+if diff_percent > 5:
     print("Get News.")
 
     # STEP 2: https://newsapi.org/
