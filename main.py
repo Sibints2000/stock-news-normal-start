@@ -59,7 +59,7 @@ if diff_percent > 1:
         "apiKey": NEWS_API_KEY,
         "qInTitle": COMPANY_NAME,
     }
-    requests.get(NEWS_ENDPOINT, params=)
+    news_response = requests.get(NEWS_ENDPOINT, params=news_params)
 
 
 #TODO 7. - Use Python slice operator to create a list that contains the first 3 articles. Hint: https://stackoverflow.com/questions/509211/understanding-slice-notation
