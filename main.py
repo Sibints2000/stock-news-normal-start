@@ -83,7 +83,8 @@ print(three_articles)
 
 # Create a new list of the first 3 article's headline and description using list comprehension.
 
-formatted_articles = [f"Headlines: {article['title']}. \nBrief: {article ['description']}" for article in
+formatted_articles = [f"{STOCK_NAME}: {up_down}{diff_percent}Headlines: {article['title']}. "
+                      f"\nBrief: {article ['description']}" for article in
                       three_articles]
 
 # Send each article as a separate message via Twilio.
