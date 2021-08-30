@@ -4,13 +4,13 @@ from twilio.rest import Client
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
-STOCK_ENDPOINT = "https://www.alphavantage.co/query"
-NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
+STOCK_ENDPOINT = "STOCK ENDPOINT"
+NEWS_ENDPOINT = "NEWS ENDPOINT"
 
-STOCK_API_KEY = "GC85PQMYCTDMCUQ3"
-NEWS_API_KEY = "b7f230a1fd1a40f2b7974776cfe7f30b"
-TWILIO_SID = "AC88a8c9dc2194c9afa111d4f97f50afae"
-TWILIO_AUTH_TOKEN = "f8ba1b674ffbbb0bef02890b9b2c11d4"
+STOCK_API_KEY = "STOCK API KEY"
+NEWS_API_KEY = "NWS API KEY"
+TWILIO_SID = "TWILIO SID"
+TWILIO_AUTH_TOKEN = "TWILIO AUTH TOKEN"
 
 
 # STEP 1: Use https://www.alphavantage.co/documentation/#daily
